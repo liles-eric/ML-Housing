@@ -1,0 +1,54 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debugging files
+*.log
+*.out
+*.err
+
+# Python-specific cache files
+*.cache
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment files (keep secrets secure)
+*.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Models and generated files
+models/
+*.pkl
+*.joblib
+
+# Data files
+data/raw/
+data/processed/
+
+# Reports
+reports/figures/*.png
+reports/*.md
+
+# Test result files
+.coverage
+*.coverage
+.pytest_cache/
+
+# OS and editor temporary files
+.DS_Store
+*.bak
+*.tmp
+*.swp
